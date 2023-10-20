@@ -1,0 +1,18 @@
+.form {
+    background-color: rgb(93, 2, 240);
+    width: 500px;
+    /*внутренний отступ */
+    padding: 10px;
+    /*Скрутить углы */
+    border-radius: 5px;
+}
+
+ul {
+    / * Убрать Маркеры */ list-style: none;
+}
+
+
+
+input:checked+span {
+    color: white;
+}
